@@ -4,4 +4,4 @@ Tetris is a tile-matching puzzle video game orginially designed by Alexey Pajitn
 
 <br>
 
-![start](misc/start.png) ![play](misc/play.png) ![clear](misc/clear.png)
+  ![start](misc/start.png)       ![play](misc/play.png)     ![clear](misc/clear.png)
