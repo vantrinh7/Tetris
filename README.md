@@ -21,4 +21,4 @@ The Tetris board is actually a two-dimensional array of boolean values. At the b
 
 Each Tetris piece is a three-dimensional array containing 4 two-dimensional arrays that represent 4 possible rotations of that piece. By incrementing or decrementing array indices, the piece can move clockwise or counter clockwise. 
 
-When a line is full - meaning that the row is filled with true values - the program increases the score, changes true values to false and loop through the board to copy everything down one row. These actions create the effect that a row is cleared and blocks above the removed row fall down to the ground.
+When a line is full - meaning that the row is filled with true values - the program increases the score, changes true values to false, and loop through the board to copy everything down one row. These actions create the effect that a row is cleared, and as a result, blocks above the removed row fall down to the ground.
