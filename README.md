@@ -18,7 +18,7 @@ User can make the pieces:
 <br>
 
 ## Tetris board is a two-dimensional array of boolean values
-The Tetris board is a two-dimensional array of *true* or *false* values. At the beginning of the game, these values are initialized to *false*. In the space where a Tetris piece is present, the values are set to *true*. By incrementing or decrementing array indices, the piece can move left, right or down. The use of a timer and an action listener creates the effect of the piece automatically "falling down" by gravity.
+In this program, a Tetris board is a two-dimensional array of *true* or *false* values. At the beginning of the game, these values are initialized to *false*. In the space where a Tetris piece is present, the values are set to *true*. By incrementing or decrementing array indices, the piece can move left, right or down. The use of a timer and an action listener creates the effect of the piece automatically "falling down" by gravity.
 
 ## Each Tetris piece is a three-dimensional array of boolean values
 Each Tetris piece is a three-dimensional array containing 4 two-dimensional arrays that represent 4 possible rotations of that piece. The arrangment of *true* and *false* values creates the shape of each Tetris piece. By incrementing or decrementing array indices, the piece can move clockwise or counter clockwise.
