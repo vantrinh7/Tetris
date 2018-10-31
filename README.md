@@ -27,3 +27,5 @@ Each Tetris piece is a three-dimensional array containing 4 two-dimensional arra
 When a line is full - meaning that the row is filled with *true* values - the program increases the score, changes true values to false, and loop through the board to copy everything down one row. These actions create the effect that a row is cleared, and consequently, blocks above the removed row can fall down to the ground.
 
 ## File description
+* TetrisBoard.java creates the board, adds a new piece and lands the piece. It has methods to check if the movements (left, right and down) and rotations (clockwise and counter-clockwise) are valid. It also detects possible collisions and out-of-bounds situations.
+* 
