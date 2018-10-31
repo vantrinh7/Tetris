@@ -27,5 +27,9 @@ Each Tetris piece is a three-dimensional array containing 4 two-dimensional arra
 When a line is full - meaning that the row is filled with *true* values - the program increases the score, changes true values to false, and loop through the board to copy everything down one row. These actions create the effect that a row is cleared, and consequently, blocks above the removed row can fall down to the ground.
 
 ## File description
-* TetrisBoard.java creates the board, adds a new piece and lands the piece. It has methods to check if the movements (left, right and down) and rotations (clockwise and counter-clockwise) are valid. It also detects possible collisions and out-of-bounds situations.
+* [TetrisBoard.java](https://github.com/vantrinh7/Tetris/blob/master/src/TetrisBoard.java) creates the board, adds a new piece and lands the piece. It has methods to check if the movements (left, right and down) and rotations (clockwise and counter-clockwise) are valid. It also detects possible collisions and out-of-bounds situations.
+* [TetrisBoardGUIView.java](https://github.com/vantrinh7/Tetris/blob/master/src/TetrisBoardGUIView.java) draws the board and Tetris pieces using information from a Tetris board variable.
+* [TetrisGame.java](https://github.com/vantrinh7/Tetris/blob/master/src/TetrisGame.java) has methods that determines the rules of Tetris game. It also determines the end of a round by landing a piece, calculating number of lines cleared and adding a new piece to the board.
+* [TetrisGUIController.java](https://github.com/vantrinh7/Tetris/blob/master/src/TetrisGUIController.java) has a TetrisBoardGUIView variable and a TetrisGame variable. It is responsible for creating a view with BorderLayout, setting up a timer, refreshing the display and handling key pressed events.
+* [TetrisPiece.java](https://github.com/vantrinh7/Tetris/blob/master/src/TetrisPiece.java) defines a Tetris piece, with methods to rotate clockwise, rotate counterclockwise, and check the boolean value at a certain position on the piece.
 * 
