@@ -1,5 +1,5 @@
 /**
- * This class is in charge of a lot of game logic
+ * This class has methods that determine Tetris game rules.
  * 
  * @author VanTrinh
  *
