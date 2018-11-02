@@ -24,7 +24,7 @@ In this program, a Tetris board is a two-dimensional array of *true* or *false* 
 Each Tetris piece is a three-dimensional array containing 4 two-dimensional arrays that represent 4 possible rotations of that piece. The arrangment of *true* and *false* values creates the shape of each Tetris piece. By incrementing or decrementing array indices, the piece can move clockwise or counter clockwise.
 
 ## A fine is full when having all *true* values and cleared when having all *false* values
-When a line is full - meaning that the row is filled with *true* values - the program increases the score, changes true values to false, and loop through the board to copy everything down one row. These actions create the effect that a row is cleared, and consequently, blocks above the removed row can fall down to the ground.
+When a line is full - meaning that the row is filled with *true* values - the program increases the score, changes true values to *false*, and loop through the board to copy everything down one row. These actions create the effect that a row is cleared, and consequently, blocks above the removed row can fall down to the ground.
 
 ## File description
 * [TetrisBoard.java](https://github.com/vantrinh7/Tetris/blob/master/src/TetrisBoard.java) creates the board, adds a new piece and lands the piece. It has methods to check if the movements (left, right and down) and rotations (clockwise and counter-clockwise) are valid. It also detects possible collisions and out-of-bounds situations.
