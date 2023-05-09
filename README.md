@@ -21,7 +21,7 @@ User can make the pieces:
 In this program, a Tetris board is a two-dimensional array of *true* or *false* values. At the beginning of the game, these values are initialized to *false*. In the space where a Tetris piece is present, the values are set to *true*. By incrementing or decrementing array indices, the piece can move left, right or down. The use of a timer and an action listener creates the effect of the piece automatically "falling down" by gravity.
 
 ## Each Tetris piece is a three-dimensional array of boolean values
-Each Tetris piece is a three-dimensional array containing 4 two-dimensional arrays that represent 4 possible rotations of that piece. The arrangment of *true* and *false* values creates the shape of each Tetris piece. By incrementing or decrementing array indices, the piece can move clockwise or counter clockwise.
+Each Tetris piece is a three-dimensional array containing 4 two-dimensional arrays that represent 4 possible rotations of that piece. The arrangement of *true* and *false* values creates the shape of each Tetris piece. By incrementing or decrementing array indices, the piece can move clockwise or counter clockwise.
 
 ## A line is full when having all *true* values and cleared when having all *false* values
 When a line is full - meaning that the row is filled with *true* values - the program increases the score, changes true values to *false*, and loop through the board to copy everything down one row. These actions create the effect that a row is cleared, and consequently, blocks above the removed row can fall down to the ground.
